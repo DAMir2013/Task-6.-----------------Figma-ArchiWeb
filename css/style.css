@@ -1,0 +1,306 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+}
+
+.barlow-code {
+    font-family: "Barlow", sans-serif;
+}
+
+.inter-code {
+    font-family: "Inter", sans-serif;
+}
+
+.playfair-code {
+    font-family: "Playfair Display", serif;
+}
+
+.container {
+    width: 86%;
+    margin: 0 auto;
+}
+
+/* HEADER-MENU */
+.header-menu-inner {
+    min-height: 188px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #2F2E2E;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.header-menu-right-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 105px;
+}
+
+.header-menu-right-item {
+    list-style: none;
+}
+
+/* presentation */
+.main-presentation {
+    position: relative;
+}
+
+.main-presentation-bg {
+    width: 1150px;
+    height: 739px;
+    background-image: url(../img/main-img.png);
+    margin-left: 290px;
+}
+
+.main-presentation-description {
+    position: absolute;
+    width: 691px;
+    height: 550px;
+    top: 95px;
+    background-color: #fff;
+    opacity: 90%;
+}
+
+.main-presentation-description h1 {
+    font-size: 51px;
+    font-weight: 900;
+    width: 425px;
+    margin-left: 100px;
+}
+
+.main-presentation-description p {
+    font-size: 32px;
+    font-weight: 200;
+    color: #2F2E2E;
+    width: 436px;
+    margin-left: 100px;
+}
+
+/* services */
+.services {
+    text-align: center;
+    background-color: rgba(37, 77, 77, 20%);
+    min-height: 384px;
+}
+
+.services h2 {
+    padding-top: 30px;
+    font-size: 51px;
+    font-weight: 900;
+}
+
+.services-inner {
+    width: 76%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-item {
+    width: 158px;
+}
+
+.services-item h3 {
+    font-weight: 900;
+    font-size: 27px;
+    margin: 0;
+}
+
+.services-item p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #2F2E2E;
+    margin: 0;
+}
+
+/* ABOUT */
+
+
+.about {
+    padding-top: 76px;
+    margin-bottom: 95px;
+}
+
+.about-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 85px;
+}
+
+.about-left-item {
+    max-width: 735px;
+    max-height: 571px;
+}
+
+.about-right-item {
+    max-width: 456px;
+}
+
+.about-right-item h2 {
+    font-size: 51px;
+    font-weight: 900;
+}
+
+.about-right-item p {
+    font-size: 31px;
+    font-weight: 400;
+    color: #2F2E2E;
+}
+
+.about-right-item h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2F2E2E;
+}
+
+/* projects */
+.projects h2 {
+    font-size: 51px;
+    font-weight: 900;
+    margin-bottom: 71px;
+}
+
+.projects-grid-inner {
+    display: grid;
+    grid-template-areas:
+        "one two three"
+        "four five six";
+    gap: 104px;
+}
+
+/* .projects-grid-item {
+    text-align: center;
+} */
+
+.projects-grid-item p {
+    padding-top: 13px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2F2E2E;
+    width: 178px;
+    margin: 0 auto;
+}
+
+.projects-grid-item-1 {
+    grid-area: one;
+}
+
+.projects-grid-item-2 {
+    grid-area: two;
+}
+
+.projects-grid-item-3 {
+    grid-area: three;
+}
+
+.projects-grid-item-4 {
+    grid-area: four;
+}
+
+.projects-grid-item-5 {
+    grid-area: five;
+}
+
+.projects-grid-item-6 {
+    grid-area: six;
+}
+
+/* testimonial */
+.testimonial h2 {
+    font-size: 51px;
+    font-weight: 900;
+    margin-bottom: 78px;
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 150px;
+}
+
+.testimonial-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+.testimonial-inner img {
+    margin-right: 21px;
+}
+
+.testimonial-right-card,
+.testimonial-left-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-right-card p,
+.testimonial-left-card p {
+    font-size: 17px;
+}
+
+/* foooter */
+
+.footer {
+    background-color: #2E2F32;
+    color: #fff;
+    min-height: 369px;
+}
+
+.footer h2 {
+    font-weight: 600;
+    font-size: 42px;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.footer p {
+    font-size: 17px;
+    line-height: 27px;
+    max-width: 287px;
+}
+
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 318px;
+    padding-top: 47px;
+}
+
+.footer-information-left-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+}
+
+.footer-information-card-1 {}
+
+.archiweb-icon-flex {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    padding-top: 34px;
+}
+
+
+.archiweb-icon-flex img {
+    width: 23px;
+    height: 23px;
+}
+
+/* .footer-information-card-2 {}
+
+.footer-information-right {} */
