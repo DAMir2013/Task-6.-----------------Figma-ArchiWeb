@@ -238,6 +238,7 @@ body {
 
 .testimonial-inner img {
     margin-right: 21px;
+    align-self: center;
 }
 
 .testimonial-right-card,
@@ -285,8 +286,6 @@ body {
     justify-content: space-between;
     gap: 140px;
 }
-
-.footer-information-card-1 {}
 
 .archiweb-icon-flex {
     display: flex;
